@@ -48,9 +48,9 @@
         <div class="d-flex align-items-center justify-content-between">
           <span class="mb-3 mb-md-0 custom-text-color ms-3 custom-margin">&copy; 2023 SuzyYucca, Inc</span>
           <ul class="nav col-md-4 justify-content-center justify-content-md-end list-unstyled custom-icons">
-            <li class="ms-3"><a class="text-body-secondary text-white" href="https://instagram.com/suzyyucca?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram text-white"></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary text-white" href="https://www.facebook.com/profile.php?id=100015295729388&mibextid=LQQJ4d"><i class="fab fa-facebook text-white"></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary text-white" href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE"><i class="fab fa-whatsapp text-white"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary text-white" title="instagram" href="https://instagram.com/suzyyucca?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram text-white"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary text-white" title="facebook" href="https://www.facebook.com/profile.php?id=100015295729388&mibextid=LQQJ4d"><i class="fab fa-facebook text-white"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary text-white" title="whatsapp" href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE"><i class="fab fa-whatsapp text-white"></i></a></li>
           </ul>
         </div>
       </footer>           
@@ -58,22 +58,22 @@
     <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
     <script>
      document.addEventListener('DOMContentLoaded', function() {
-  function handleSubmit(event) {
-    event.preventDefault();
+      function handleSubmit(event) {
+        event.preventDefault();
 
-    var nomeCompleto = document.getElementById('nomeCompleto').value;
-    var dataNascimento = document.getElementById('dataNascimento').value;
-    var telefone = document.getElementById('telefone').value;
+        var nomeCompleto = document.getElementById('nomeCompleto').value;
+        var dataNascimento = document.getElementById('dataNascimento').value;
+        var telefone = document.getElementById('telefone').value;
 
-    window.location.href = 'mapaNumerologico.html?nome=' + encodeURIComponent(nomeCompleto) + '&data=' + encodeURIComponent(dataNascimento) + '&telefone=' + encodeURIComponent(telefone);
-  }
+        window.location.href = 'mapaNumerologico.html?nome=' + encodeURIComponent(nomeCompleto) + '&data=' + encodeURIComponent(dataNascimento) + '&telefone=' + encodeURIComponent(telefone);
+      }
 
-  var formulario = document.getElementById('formulario');
+      var formulario = document.getElementById('formulario');
 
-  if (formulario) {
-    formulario.addEventListener('submit', handleSubmit);
-  }
-});
+      if (formulario) {
+        formulario.addEventListener('submit', handleSubmit);
+      }
+    });
 
     </script>
   </body>
