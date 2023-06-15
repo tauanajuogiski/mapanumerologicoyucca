@@ -1,0 +1,167 @@
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; /* Previne herança do `body` */
+}
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.text-box {
+  background-color: rgba(186, 199, 194, 0.9); 
+  border: 2px rgba(186, 199, 194, 0.9); 
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%; 
+  margin: 0 auto;
+  line-height: 1.5em;
+  color: #2c2c35;
+  font-size: 16px;
+}
+
+.text-box-mapa {
+  background-color: rgba(186, 199, 194, 0.9); 
+  border: 2px rgba(186, 199, 194, 0.9); 
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%; 
+  margin: 0 auto; 
+  line-height: 1.5em;
+  color: #2c2c35;
+  font-size: 16px;
+}
+
+body {
+  background: url('../../brand/yuccamystic.gif') center center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-label {
+  height: 8px;
+  font-size: 14px;
+}
+
+.custom-form {
+  height: 42px;
+}
+
+.custom-button {
+  height: 35px;
+  font-size: 16px;
+  background-color: #884d46;
+  border-color: #884d46;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: #fff;
+  border-color: #25D366;
+}
+
+.bg-black {
+  background-color: #25D366;
+  color: #fff;
+  border-color: #25D366;
+  align-self: flex-end;
+}
+
+h5 {
+  margin-top: -1%;
+}
+
+h4{
+  font-size: 18px;
+}
+
+.title-site {
+  margin-top: -1%;
+  font-size: 24px; 
+  color: #032e44; 
+  font-family: Algerian;
+}
+
+@media screen and (min-height: 980px) and (max-height:2285px){
+  .text-box,
+  .text-box-mapa{
+    width: 100%;
+    max-width: 100%;
+    height: 100%; /* Define a altura total da viewport */
+    height: 60vh; /* Ajuste a altura desejada */
+    overflow-y: auto;
+    line-height: 2.0em;
+    letter-spacing: 1.1px; 
+  }
+
+  p {
+    font-size: 26px;
+    margin-top: 2%;
+    text-align: justify;
+  }
+  
+  .title-site {
+    font-size: 28px;
+    margin-top: 2%;
+    letter-spacing: 1.5px; 
+  }
+
+  .text-start{
+    margin-top: 2%;
+  }
+
+  .form-label{
+    font-size: 24px;
+    margin-top: 2%;
+  }
+
+  .data-align {
+    text-align: left;
+  }
+
+  .btn{
+    margin-top: 4%;
+    height: 80px;
+    font-size: 24px;
+  }
+
+  .btn-ic{
+    height: 40px;
+    width: 30px;
+    font-size: 21px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-instagram,
+  .fa-facebook,
+  .fa-whatsapp{
+    font-size: 2.3em; /* Ajuste o tamanho do ícone conforme necessário */
+  }
+
+  .custom-margin,
+  .title-a,
+  .title-h4{
+    font-size: 1.9em;
+  }
+}

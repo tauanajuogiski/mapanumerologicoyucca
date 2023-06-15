@@ -4,24 +4,22 @@
     <meta charset="utf-8">
     <title>Mapa Numerológico</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="cover.css" rel="stylesheet">
   </head>
   <body class="d-flex h-100 text-center text-bg-dark">     
     <div class="cover-container custom-width d-flex p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
-          <h4 class="float-md-start mb-0" style="font-size: 18px;">SuzyYucca</h4>
+          <h4 class="float-md-start mb-0 title-h4">SuzyYucca</h4>
           <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Mapa Numerológico</a>
+            <a class="nav-link fw-bold py-1 px-0 active title-a" aria-current="page" href="index.html">Mapa Numerológico</a>
           </nav>
         </div>
       </header>
       <main>
           <div class="text-box">
-            <h5 style="font-size: 24px; color: #032e44; font-family: Algerian;">Mapa da Numerologia dos Chacras</h5>
-            <p style="text-align: left; margin-bottom: 2px;">
+            <h5 class="title-site">Mapa da Numerologia dos Chacras</h5>
+            <p style="margin-bottom: 2px;">
               O mapa é uma ferramenta incrível para quem deseja aprimorar sua prática de numerologia dos chacras. Com o mapa, você poderá explorar cada um dos sete chacras principais e entender como eles influenciam diferentes áreas de sua vida.
               Cada ponto no mapa representa um chacra diferente, e a cor de cada ponto indica o estado atual desse chacra em particular. Com a ajuda da Mentora Quântica Suzy Yucca, você poderá identificar quais chacras precisam de mais atenção e trabalhar para equilibrá-los.
               Além disso, o mapa também inclui informações valiosas sobre cada chacra, como seu significado, suas características e como ele pode afetar sua vida. Com esse conhecimento, você poderá desenvolver uma compreensão mais profunda de si mesmo e de sua jornada espiritual.
@@ -33,7 +31,7 @@
                 </div>
                 <div class="mb-2">
                   <label for="dataNascimento" class="form-label custom-label">Data de Nascimento</label>
-                  <input type="date" class="form-control custom-form" id="dataNascimento" required min="1900-01-01" max="2200-12-31">
+                  <input type="date" class="form-control custom-form data-align" id="dataNascimento" required min="1900-01-01" max="2200-12-31">
                 </div>
                 <div class="mb-2">
                   <label for="telefone" class="form-label custom-label">Telefone</label>
@@ -50,31 +48,13 @@
           <ul class="nav col-md-4 justify-content-center justify-content-md-end list-unstyled custom-icons">
             <li class="ms-3"><a class="text-body-secondary text-white" title="instagram" href="https://instagram.com/suzyyucca?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram text-white"></i></a></li>
             <li class="ms-3"><a class="text-body-secondary text-white" title="facebook" href="https://www.facebook.com/profile.php?id=100015295729388&mibextid=LQQJ4d"><i class="fab fa-facebook text-white"></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary text-white" title="whatsapp" href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE"><i class="fab fa-whatsapp text-white"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary text-white" title="whatsapp" href="https://api.whatsapp.com/send?phone=5519991042481"><i class="fab fa-whatsapp text-white"></i></a></li>
           </ul>
         </div>
       </footer>           
     </div>
+    <link href="./assets/dist/css/cover.css" rel="stylesheet">
     <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-     document.addEventListener('DOMContentLoaded', function() {
-      function handleSubmit(event) {
-        event.preventDefault();
-
-        var nomeCompleto = document.getElementById('nomeCompleto').value;
-        var dataNascimento = document.getElementById('dataNascimento').value;
-        var telefone = document.getElementById('telefone').value;
-
-        window.location.href = 'mapaNumerologico.html?nome=' + encodeURIComponent(nomeCompleto) + '&data=' + encodeURIComponent(dataNascimento) + '&telefone=' + encodeURIComponent(telefone);
-      }
-
-      var formulario = document.getElementById('formulario');
-
-      if (formulario) {
-        formulario.addEventListener('submit', handleSubmit);
-      }
-    });
-
-    </script>
+    <script src="./assets/dist/js/scriptForm.js"></script>
   </body>
 </html>

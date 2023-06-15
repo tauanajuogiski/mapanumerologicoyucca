@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="h-100" data-bs-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <title>Mapa Numerológico</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../dist/css/cover.css" rel="stylesheet">
+</head>
+<body class="d-flex h-100 text-center text-bg-dark">
+  <div class="cover-container custom-width d-flex p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <a href="../../index.html" onclick="pauseSpeech()">
+          <h4 class="float-md-start mb-0 text-white title-h4">SuzyYucca</h4>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0 active title-a" aria-current="page" href="../../index.html" onclick="pauseSpeech()">Mapa Numerológico</a>
+          </nav>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="text-box-mapa d-flex flex-column align-items-center">
+        <div>
+          <h5 class="title-site">Mapa da Numerologia dos Chacras</h5>
+        </div>
+        <div class="d-flex align-items-center">
+          <button id="btnPausar" class="btn-x btn-primary btn-icon bg-black mr-2">
+            <i class="fas fa-pause text-white fa-xs btn-ic"></i>
+          </button>
+          <button id="btnRetomar" class="btn-x btn-primary btn-icon bg-black">
+            <i class="fas fa-play text-white fa-xs btn-ic"></i>
+          </button>
+          <button id="btnReiniciar" class="btn-x btn-primary btn-icon bg-black">
+            <i class="fas fa-redo text-white fa-xs btn-ic"></i>
+          </button>
+        </div>
+        <div class="ml-2">
+          <p id="textoBemVindo" style="text-align: justify;">
+          </p>
+          <p id="textoNumerologico" style="text-align: justify;">
+          </p>
+          <p id="textoContato" style="text-align: justify;">
+          </p>
+          <button id="btnContato" class="btn btn-primary whatsapp-button" onclick="entrarEmContato()">Quer saber mais? Entre em contato conosco pelo WhatsApp</button>
+        </div>
+      </div>
+      
+    </main>
+    <footer class="mt-auto text-white-50">
+      <div class="d-flex align-items-center justify-content-between">
+        <span class="mb-3 mb-md-0 custom-text-color ms-3 custom-margin">&copy; 2023 SuzyYucca, Inc</span>
+        <ul class="nav col-md-4 justify-content-center justify-content-md-end list-unstyled custom-icons">
+          <li class="ms-3"><a class="text-body-secondary text-white"
+              href="https://instagram.com/suzyyucca?igshid=MzRlODBiNWFlZA=="><i
+                class="fab fa-instagram text-white"></i></a></li>
+          <li class="ms-3"><a class="text-body-secondary text-white"
+              href="https://www.facebook.com/profile.php?id=100015295729388&mibextid=LQQJ4d"><i
+                class="fab fa-facebook text-white"></i></a></li>
+          <li class="ms-3"><a class="text-body-secondary text-white"
+              href="https://api.whatsapp.com/send?phone=5519991042481"><i class="fab fa-whatsapp text-white"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="../dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../dist/js/scriptMapa.js"></script>
+</body>
+</html>
