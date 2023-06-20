@@ -120,8 +120,9 @@ h4{
   display: block;
   margin: 8px 0;
   width: 35%;
-  color:#333
+  color:#333;
   height: 42px;
+  line-height: 21;
 }
 
 input[type="date"]::-webkit-inner-spin-button,
