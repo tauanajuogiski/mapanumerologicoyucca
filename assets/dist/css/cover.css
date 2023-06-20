@@ -158,6 +158,7 @@ input[type="date"]::-webkit-input-placeholder{
 input[type="date"]{
   display:block;
   min-height: 1.2em;
+  padding:10px;
 }
 
 .text-box-mapa{
