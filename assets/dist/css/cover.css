@@ -148,12 +148,19 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   
   input::-webkit-calendar-picker-indicator{
     display: none;
-  }
+}
 
-  input[type="date"]::-webkit-input-placeholder{ 
-      visibility: hidden !important;
-  }
-  .text-box-mapa{
+input[type="date"]::-webkit-input-placeholder{ 
+    visibility: hidden !important;
+}
+ 
+
+input[type="date"]{
+  display:block;
+  min-height: 1.2em;
+}
+
+.text-box-mapa{
     width: 100%;
     max-width: 100%;
     height: 100%; /* Ajuste a altura desejada */
