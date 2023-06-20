@@ -114,6 +114,28 @@ h4{
   justify-content: center;
 }
 
+.datetime {
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  display: block;
+  height: 35px;
+  margin: 8px 0;
+  width: 35%;
+  color:#333
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
 @media screen and (min-height: 980px) and (max-height:2285px){
   input[type="text"],
   input[type="number"],
