@@ -146,6 +146,13 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     touch-action: pan-x pan-y;
   }
   
+  input::-webkit-calendar-picker-indicator{
+    display: none;
+  }
+
+  input[type="date"]::-webkit-input-placeholder{ 
+      visibility: hidden !important;
+  }
   .text-box-mapa{
     width: 100%;
     max-width: 100%;
