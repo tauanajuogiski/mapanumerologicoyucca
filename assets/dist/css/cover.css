@@ -121,12 +121,7 @@ h4{
   input[type="tel"] {
     height: 60px;
     font-size: 1rem;
-    touch-action: manipulation;
-  }
-
-
-  body{
-    touch-action: none;
+    touch-action: pan-x pan-y;
   }
   
   .text-box-mapa{
