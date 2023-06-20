@@ -194,4 +194,8 @@ h4{
   .title-h4{
     font-size: 1.9em;
   }
+
+  input{
+    touch-action: none;
+  }
 }
