@@ -92,7 +92,7 @@
    if ('speechSynthesis' in window) {
      var speech = new SpeechSynthesisUtterance(text);
      speech.lang = 'pt-BR';
-     speech.rate = 1.2;
+     speech.rate = 1.0;
  
      speechPaused = false;
      // Verifica se a fala está pausada antes de reproduzir
