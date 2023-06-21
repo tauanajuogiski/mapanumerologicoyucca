@@ -122,7 +122,6 @@ h4{
   width: 35%;
   color:#333;
   height: 42px;
-  line-height: 2px;
 }
 
 input[type="date"]::-webkit-inner-spin-button,
@@ -160,7 +159,6 @@ input[type="date"]{
   display:block;
   min-height: 1.2em;
   padding:10px;
-  line-height: 2px;
   text-align: left;
 }
 
